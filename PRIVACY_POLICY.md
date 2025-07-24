@@ -5,174 +5,163 @@
 
 ## 1. Introduction
 
-This Privacy Policy describes how the Warhammer Monitor software ("the Software," "we," "us," or "our") handles information when you use our open-source monitoring application.
+This Privacy Policy describes how the Warhammer Monitor Discord bot ("the Bot," "Service," "we," "us," or "our") collects, uses, and protects information when you invite and use our Discord bot service.
 
-**Important:** This Software runs entirely on your own systems. We do not operate any central servers or collect data from your installation.
+**Important:** This is a hosted Discord bot service. The Bot operates on our servers and provides notifications to your Discord channels.
 
-## 2. Information We Do NOT Collect
+## 2. Information We Collect
 
-As an open-source application that runs locally on your device, we do **NOT** collect, store, or transmit:
+### 2.1 Discord Server Information
+When you invite the Bot to your Discord server, we automatically collect:
+- **Server ID:** Unique identifier for your Discord server
+- **Server Name:** Name of your Discord server (for identification purposes)
+- **Bot Permissions:** What permissions were granted to the Bot
 
-- Personal identification information
-- Discord bot tokens or credentials
-- Discord channel IDs or server information
-- Monitoring data or history
-- Usage statistics or analytics
-- Error reports or crash data
-- IP addresses or device information
+### 2.2 Channel Configuration Data
+When you request channel configuration, we store:
+- **Channel IDs:** Discord channel IDs where you want notifications sent
+- **Channel Names:** Names of configured channels (for our reference)
+- **Configuration Date:** When channels were added to our system
+- **Requestor Information:** Discord username of person who requested configuration
 
-## 3. Data Stored Locally on Your Device
+### 2.3 Operational Data
+For service operation, we collect:
+- **Message Delivery Status:** Whether notifications were successfully sent
+- **Error Logs:** Technical errors related to your server/channels
+- **Usage Statistics:** Basic metrics on notification delivery (no message content)
 
-The Software stores the following data locally on your device:
+### 2.4 Communication Records
+If you contact us directly:
+- **Discord Messages:** Messages sent to the bot operator for support or configuration
+- **Request History:** Record of configuration changes requested
 
-### 3.1 Configuration Data
-- **File:** `config.json`
-- **Contains:** Discord bot token, channel IDs, monitoring settings
-- **Purpose:** Configure the Software's operation
-- **Retention:** Until you delete or modify the file
+## 3. Information We Do NOT Collect
 
-### 3.2 Monitoring History
-- **Files:** `data/app-history.json`, `data/news-history.json`, `data/downloads-history.json`
-- **Contains:** Historical data about monitored content to prevent duplicate notifications
-- **Purpose:** Track what content has already been reported
-- **Retention:** Configurable, automatically managed by the Software
+We do **NOT** collect:
+- **Message Content:** We never read or store your Discord server's messages
+- **User Personal Data:** Names, emails, or personal information of server members
+- **Voice Chat Data:** No access to voice channels or audio
+- **File Attachments:** No access to files shared in your server
+- **Private Messages:** No access to DMs between users
+- **Server Member Lists:** No collection of server member information
 
-### 3.3 Log Files
-- **Files:** `logs/*.log`
-- **Contains:** Application activity logs, error messages, operational status
-- **Purpose:** Debugging and monitoring Software performance
-- **Retention:** Automatically rotated when they exceed size limits
+## 4. How We Use Your Information
 
-### 3.4 Backup Data
-- **Files:** `data-backup/*`
-- **Contains:** Backup copies of monitoring history
-- **Purpose:** Data recovery and migration
-- **Retention:** Manual management by user
+### 4.1 Primary Purposes
+- **Notification Delivery:** Send Warhammer content updates to configured channels
+- **Service Operation:** Maintain and operate the Bot functionality
+- **Error Resolution:** Diagnose and fix delivery problems
+- **Configuration Management:** Track which channels receive notifications
 
-## 4. Third-Party Services
+### 4.2 We Do NOT Use Your Information For
+- **Marketing or Advertising:** No promotional messages or ads
+- **Data Sales:** We never sell or share your data with third parties
+- **Analytics Beyond Basic Operations:** No detailed user behavior tracking
+- **Commercial Purposes:** This is a free hobby service
 
-The Software interacts with third-party services to function:
+## 5. Data Sharing and Disclosure
 
-### 4.1 Discord API
-- **Data Sent:** Messages and embeds to your configured Discord channels
-- **Purpose:** Send notifications about detected content
-- **Discord's Privacy Policy:** https://discord.com/privacy
-- **Your Responsibility:** Configure Discord bot permissions appropriately
+### 5.1 No Third-Party Sharing
+We do **NOT** share your information with third parties except:
+- **Discord Platform:** Necessary API calls to send notifications to your channels
+- **Legal Requirements:** If required by law (though unlikely for this hobby service)
 
-### 4.2 Apple App Store API
-- **Data Accessed:** Public app information (version, description, ratings)
-- **Purpose:** Monitor for app updates
-- **Apple's Privacy Policy:** https://www.apple.com/privacy/
-- **Data Flow:** Public API data → Local storage → Discord notifications
+### 5.2 Public Data Sources
+The Bot accesses public information from:
+- **Apple App Store:** Public app information (no user data)
+- **Warhammer Community Website:** Public articles and downloads (no user data)
 
-### 4.3 Warhammer Community Website
-- **Data Accessed:** Public articles and download listings
-- **Purpose:** Monitor for new community content
-- **Games Workshop Privacy Policy:** https://www.games-workshop.com/en-GB/Privacy-Policy
-- **Data Flow:** Public website data → Local storage → Discord notifications
+## 6. Data Security
 
-## 5. Data Security
+### 6.1 Our Security Measures
+- **Secure Storage:** Configuration data stored securely on our servers
+- **Access Control:** Only the bot operator has access to configuration data
+- **Discord Token Security:** Bot token stored securely and never shared
+- **Regular Backups:** Configuration data backed up to prevent loss
 
-### 5.1 Your Responsibilities
-- **Secure Configuration:** Protect your `config.json` file containing Discord tokens
-- **File Permissions:** Ensure appropriate file permissions on your system
-- **Access Control:** Limit who can access your installation directory
-- **Backup Security:** Secure any backups you create
+### 6.2 Your Security Responsibilities
+- **Bot Permissions:** Only grant necessary permissions to the Bot
+- **Server Security:** Maintain security of your Discord server
+- **Access Control:** Control who can request channel configurations
 
-### 5.2 Software Design
-- **Local Operation:** All processing occurs on your local system
-- **No Central Database:** No data is sent to external databases
-- **Open Source:** Code is publicly auditable for security review
+## 7. Data Retention
 
-## 6. Data Sharing
+### 7.1 Active Configuration
+- **Channel Data:** Retained while Bot is active in your server
+- **Operational Logs:** Retained for up to 30 days for troubleshooting
+- **Error Logs:** Retained for up to 7 days
 
-We do **NOT** share any data because:
-- We do not have access to your data
-- All data remains on your local system
-- The Software operates independently
+### 7.2 Data Deletion
+Your data is automatically deleted when:
+- **Bot Removal:** You remove the Bot from your server
+- **Channel Deletion:** Discord channels are deleted
+- **Manual Request:** You request removal of your configuration
 
-However, **you** control what data is shared when:
-- Posting Discord notifications (content summaries are sent to your Discord channels)
-- Sharing log files for support (review logs before sharing)
-- Contributing to the project (ensure no sensitive data in submissions)
+### 7.3 Service Discontinuation
+If the service is discontinued:
+- **30-Day Notice:** Advance notice provided via Discord
+- **Data Deletion:** All stored data deleted within 30 days of service end
 
-## 7. Data Retention and Deletion
+## 8. Your Rights and Controls
 
-### 7.1 Automated Retention
-- **Log Files:** Automatically rotated when exceeding configured size limits
-- **History Files:** Limited to prevent excessive growth (configurable)
+### 8.1 Configuration Control
+- **Add Channels:** Request new channels be configured
+- **Remove Channels:** Request channels be removed from notifications
+- **Update Settings:** Modify notification preferences
+- **Complete Removal:** Remove Bot entirely from your server
 
-### 7.2 Manual Deletion
-You can delete data at any time by:
-- Removing configuration files
-- Deleting the entire installation directory
-- Using provided cleanup scripts
-- Configuring shorter retention periods
+### 8.2 Data Access
+- **View Configuration:** Request current channel configuration
+- **Data Portability:** Get copy of your configuration data
+- **Deletion Request:** Request immediate deletion of your data
 
-## 8. Children's Privacy
+## 9. Discord Platform Compliance
 
-This Software is not directed to children under 13. If you are under 13, do not use this Software. If you are between 13 and 18, ensure you have parental permission before using Discord or configuring bots.
-
-## 9. International Data Transfers
-
-Since all data remains on your local system, there are no international data transfers by the Software itself. However:
-- Discord may process your bot's messages according to their privacy policy
-- Third-party APIs may be accessed from your location
+This Bot complies with:
+- **Discord Terms of Service**
+- **Discord Developer Terms of Service**
+- **Discord API Terms of Use**
+- **Discord Community Guidelines**
 
 ## 10. Changes to Privacy Policy
 
-We may update this Privacy Policy by:
-- Posting changes to the GitHub repository
-- Updating the "Last Updated" date
-- Providing notice in release notes for significant changes
+We may update this Privacy Policy:
+- **Notification Method:** Changes announced via Discord
+- **Effective Date:** Changes effective 7 days after announcement
+- **Continued Use:** Using the Bot after changes indicates acceptance
 
-Your continued use after changes indicates acceptance of the updated policy.
+## 11. Children's Privacy
 
-## 11. Your Rights
+This Service is not directed to children under 13. If you are under 13, do not use this Service. Discord's own terms require users to be 13 or older.
 
-Since we don't collect your data, traditional data protection rights don't apply to us. However, you have complete control over:
-- **Access:** You can view all data stored locally
-- **Portability:** Copy your data files to other systems
-- **Deletion:** Remove any or all data at any time
-- **Modification:** Edit configuration and data files directly
+## 12. International Data
 
-## 12. Compliance with Laws
+### 12.1 Data Location
+- **Server Location:** Bot operates on servers in [Your Location/Region]
+- **Discord Processing:** Data processed through Discord's global infrastructure
 
-### 12.1 GDPR (European Users)
-- **Data Controller:** You are the data controller for your installation
-- **Data Processor:** The Software processes data on your behalf
-- **Legal Basis:** Legitimate interest in monitoring content
+### 12.2 Legal Compliance
+This service complies with applicable data protection laws as a hobby project with minimal data collection.
 
-### 12.2 CCPA (California Users)
-- **Personal Information:** We do not collect personal information as defined by CCPA
-- **Data Sales:** We do not sell personal information
+## 13. Hobby Service Nature
 
-## 13. Security Incidents
-
-If you discover a security vulnerability:
-1. **DO NOT** post it publicly in GitHub Issues
-2. Contact the maintainers privately
-3. Allow reasonable time for fixes before disclosure
-4. Follow responsible disclosure practices
+**Important Limitations:**
+- **Hobby Project:** This is a personal hobby project, not a commercial service
+- **Best Effort:** Service provided on best-effort basis
+- **No Guarantees:** No uptime or availability guarantees
+- **Voluntary Basis:** Operated voluntarily by individual developer
 
 ## 14. Contact Information
 
-For privacy-related questions:
-- **GitHub Issues:** For general questions (review for sensitive information first)
-- **Project Repository:** [Repository URL]
-- **Security Issues:** [Maintainer contact information]
+For privacy-related questions or requests:
+- **Discord:** Contact the bot operator directly
+- **Data Requests:** Message bot operator for configuration changes
+- **Data Deletion:** Request via Discord to remove your data
 
-## 15. Third-Party Links
+## 15. Effective Date
 
-This Privacy Policy only applies to the Software itself. When using Discord, Apple services, or Warhammer Community websites, their respective privacy policies apply.
-
-## 16. Open Source Nature
-
-This is an open-source project. You can:
-- **Audit the Code:** Review how data is handled
-- **Propose Changes:** Suggest privacy improvements
-- **Fork the Project:** Create your own version with different privacy practices
+This Privacy Policy is effective as of the date listed above and applies to all information collected by the Service.
 
 ---
 
-**Summary:** We don't collect your data because we can't - everything runs on your system. You have complete control over your data and privacy. 
+**Summary:** We only collect what's necessary to deliver notifications to your Discord channels. We don't read your messages, sell your data, or use it for anything beyond operating this free Warhammer monitoring service. 

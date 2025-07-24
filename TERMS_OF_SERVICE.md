@@ -5,38 +5,43 @@
 
 ## 1. Acceptance of Terms
 
-By downloading, installing, or using the Warhammer Monitor software ("the Software"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not use the Software.
+By inviting, using, or interacting with the Warhammer Monitor Discord bot ("the Bot" or "Service"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not use the Service.
 
 ## 2. Description of Service
 
-Warhammer Monitor is an open-source monitoring application that:
+Warhammer Monitor is a free Discord bot service that:
 - Tracks updates to the Warhammer 40,000 mobile application on the Apple App Store
 - Monitors the Warhammer Community website for new articles and downloads
-- Sends notifications via Discord when new content is detected
-- Stores monitoring history locally on your device
+- Sends notifications to configured Discord channels when new content is detected
+- Operates as a centralized service hosted by the bot operator
 
 ## 3. User Responsibilities
 
-### 3.1 Discord Bot Configuration
-- You are responsible for creating and configuring your own Discord bot
-- You must comply with Discord's Terms of Service and Developer Terms of Service
-- You are responsible for managing Discord bot tokens and channel permissions
+### 3.1 Discord Server Management
+- You are responsible for inviting the Bot to your Discord server
+- You must have appropriate permissions to add bots to your Discord server
+- You must comply with Discord's Terms of Service and Community Guidelines
+- You are responsible for managing the Bot's permissions within your server
 
-### 3.2 API Usage
-- You must respect rate limits and terms of service of monitored websites
-- You are responsible for ensuring your usage complies with Apple's and Games Workshop's terms
-- Do not use the Software to spam, harass, or violate platform policies
+### 3.2 Service Requests
+- You may request channel configuration by contacting the bot operator
+- You must provide valid Discord channel IDs for notification setup
+- You understand that configuration changes are performed manually by the bot operator
+- Future automated configuration will be available through Discord commands
 
-### 3.3 Data Management
-- You are responsible for the security of your configuration files and Discord tokens
-- You must backup your own data and configuration
-- You are responsible for managing log files and disk space
+### 3.3 Appropriate Use
+- Do not attempt to spam or abuse the notification system
+- Do not request excessive channel configurations without legitimate need
+- Respect the free nature of this hobby service
+- Report any issues or concerns to the bot operator
 
 ## 4. Intellectual Property
 
-### 4.1 Software License
-- This Software is provided under the MIT License
-- You may use, modify, and distribute the Software according to the MIT License terms
+### 4.1 Service License
+- This Service is provided as a free hobby project
+- You may use the Service for personal, non-commercial purposes
+- You may not reverse engineer, modify, or distribute the Bot's code
+- The Bot operator retains all rights to the Service and its implementation
 
 ### 4.2 Third-Party Trademarks
 - "Warhammer," "Warhammer 40,000," and related trademarks are property of Games Workshop Limited
@@ -50,14 +55,17 @@ Warhammer Monitor is an open-source monitoring application that:
 THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
 
 ### 5.2 Service Availability
-- The Software relies on third-party APIs and services
-- We do not guarantee continuous availability of monitoring features
+- The Service relies on third-party APIs and services
+- We do not guarantee continuous availability or uptime
+- The Service is provided as a hobby project with best-effort support
 - API changes by third parties may affect functionality
+- The Service may be discontinued at any time without notice
 
 ### 5.3 Data Accuracy
 - We do not guarantee the accuracy or completeness of monitored data
-- The Software may miss updates or provide false positives
-- You should not rely solely on this Software for critical information
+- The Service may miss updates or provide false positives
+- You should not rely solely on this Service for critical information
+- Notifications are provided for entertainment and convenience only
 
 ## 6. Limitation of Liability
 
@@ -69,13 +77,15 @@ Please refer to our [Privacy Policy](PRIVACY_POLICY.md) for information about da
 
 ## 8. Prohibited Uses
 
-You may not use the Software to:
+You may not use the Service to:
 - Violate any applicable laws or regulations
 - Infringe on intellectual property rights
-- Distribute malware or harmful code
-- Attempt to gain unauthorized access to systems
-- Spam or send unsolicited communications via Discord
+- Attempt to reverse engineer or exploit the Bot
+- Attempt to gain unauthorized access to the Bot's systems
+- Spam or abuse the notification features
 - Violate Discord's Terms of Service or Community Guidelines
+- Use the Service for commercial purposes
+- Resell or redistribute access to the Service
 
 ## 9. Modifications to Terms
 
@@ -85,19 +95,20 @@ We reserve the right to modify these Terms at any time. Changes will be effectiv
 
 You may stop using the Software at any time. We may discontinue development or support of the Software at any time without notice.
 
-## 11. Open Source Nature
+## 11. Service Nature
 
-This is an open-source project. You may:
-- Inspect the source code
-- Contribute improvements via pull requests
-- Fork the project for your own use
-- Report issues and suggest features
+This is a hobby project provided free of charge. Users may:
+- Request channel configuration from the bot operator
+- Report issues or bugs via Discord or other communication channels
+- Suggest features or improvements
+- Remove the Bot from their server at any time
 
 ## 12. Support and Maintenance
 
-- Support is provided on a best-effort basis through GitHub Issues
+- Support is provided on a best-effort basis as a hobby project
 - No guaranteed response time or resolution
-- Community contributions are welcome but not required
+- The bot operator may be unavailable for extended periods
+- Service updates and maintenance performed at operator's discretion
 
 ## 13. Compliance
 
@@ -118,9 +129,10 @@ These Terms shall be governed by and construed in accordance with the laws of Ir
 
 ## 15. Contact Information
 
-For questions about these Terms:
-- **GitHub Issues:** [Repository Issues Page]
-- **Project Repository:** [Repository URL]
+For questions about these Terms or Service requests:
+- **Discord:** Contact the bot operator directly
+- **Channel Configuration:** Request via Discord message to bot operator
+- **Issues/Bugs:** Report through Discord or designated communication channel
 
 ## 16. Severability
 
